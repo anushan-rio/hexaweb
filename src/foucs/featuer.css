@@ -1,0 +1,34 @@
+.box {
+    padding: 20px;
+    margin: 10px 0;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .box.fast {
+    background-color: #ff6b6b;
+    color: white;
+  }
+  
+  .box.scalable {
+    background-color: #4dabf7;
+    color: white;
+  }
+  
+  .box.reliable {
+    background-color: #66bb6a;
+    color: white;
+  }
+  
+  .box.hovered {
+    transform: scale(1.1);
+  }
+  
+  .scroll-links .btn {
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
